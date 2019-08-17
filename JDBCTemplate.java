@@ -1,7 +1,5 @@
 package JDBC;
-
 import java.sql.*;
-
 public abstract class JDBCTemplate {
     private Connection connection;
     private Statement statement;

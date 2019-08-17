@@ -16,7 +16,7 @@ public abstract class JDBCTemplate {
                 username,
                 password);
     }
-
+//我们首先要了解我们的JDBC的编程流程
     public final void call(){
         //加载驱动
         loadDdriver();

@@ -20,10 +20,8 @@ public abstract class JDBCTemplate {
     public final void call(){
         //加载驱动
         loadDdriver();
-        //2:创建连接
-        
+        //2:创建连接 
         createConnect();
-     
         //3：创建命令
         createStatment();
     
